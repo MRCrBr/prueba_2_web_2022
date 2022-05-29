@@ -1,22 +1,22 @@
 const compras = [
     {
       url:
-        "https://sodimac.scene7.com/is/image/SodimacCL/8758581?fmt=jpg&fit=fit,1&wid=160&hei=160",
+        "https://dojiw2m9tvv09.cloudfront.net/11787/product/dogitcamaredonda53cm7136.jpg",
       descripcion: "una cama"
     },
     {
       url:
-        "https://sodimac.scene7.com/is/image/SodimacCL/358930?fmt=jpg&fit=fit,1&wid=160&hei=160",
+        "https://ripleycl.imgix.net/http%3A%2F%2Fs3.amazonaws.com%2Fimagenes-sellers-mercado-ripley%2F2020%2F02%2F14100853%2FVista-1-peincipal.jpg?w=750&h=555&ch=Width&auto=format&cs=strip&bg=FFFFFF&q=60&trimcolor=FFFFFF&trim=color&fit=fillmax&ixlib=js-1.1.0&s=9ece057c37052ae32845edf9130b7dbb",
       descripcion: "una casa de perro"
     },
     {
       url:
-        "https://sodimac.scene7.com/is/image/SodimacCL/8796408?fmt=jpg&fit=fit,1&wid=160&hei=160",
-      descripcion: "una cama pero de perro"
+        "https://www.purina-latam.com/sites/g/files/auxxlc391/files/styles/kraken_generic_max_width_360/public/download-21.png?itok=5os2Jiwd",
+      descripcion: "un juego  de perro"
     },
         {
         url:
-            "https://sodimac.scene7.com/is/image/SodimacCL/367584X?fmt=jpg&fit=fit,1&wid=160&hei=160",
+            "https://ae01.alicdn.com/kf/H5eccca2fb82f48279d2d8647280abac5N/Collar-ancho-de-cuero-para-Perro-collares-acolchados-suaves-y-grandes-para-perros-medianos-y-grandes.jpg_Q90.jpg_.webp",
         descripcion: "un collar"
         }
 ]
