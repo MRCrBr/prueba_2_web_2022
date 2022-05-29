@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Formulario Registro</title>
+</head>
+<body  class="container-fluid "background="img\fondo.jpg" style="border-bottom: black;">
+    <div style="background-color: rgba(18, 20, 176, 0.785) ;">
+  <section class="form-register">
+    <h4>Formulario Registro</h4>
+    <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre" required="[[A-Za-z]]">
+    <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido"  required="[A-Za-z]">
+    <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo"  required="[^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$]">
+    <input class="controls" type="password" name="correo" id="correo" placeholder="Ingrese su Contraseña"  required="" pattern="[[A-Za-z0-9_-]">
+    <p>Estoy de acuerdo con <a style="color:red ;" href="https://es.wikipedia.org/wiki/Pacto_con_el_diablo">Terminos y Condiciones</a></p>
+    <input class="botons" type="submit" value="Registrar" onclick="alert('Se registro correctamente')" >
+    <p><a href="loginyregistro.html" style="color: black;">¿Ya tengo Cuenta click aqui?</a></p>
+  </section>
+</div>
+
+</body>
+</html>

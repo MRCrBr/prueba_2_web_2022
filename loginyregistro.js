@@ -11,10 +11,18 @@ var caja_trasera_login = document.querySelector(".caja__trasera-login");
 var caja_trasera_register = document.querySelector(".caja__trasera-register");
 
     //FUNCIONES
-function mostrar(){
-        document.getElementById("desaparecer").style.display ='block';
+function ocultar(){
+        $.('#desaparecer').hide();
 }
+ocultar();
 
+$.('#desaparecer').hide();
+
+    //FUNCIONES
+function mostrar(){
+    $.('#desaparecer').show();
+
+}
 function anchoPage(){
 
     if (window.innerWidth > 850){
